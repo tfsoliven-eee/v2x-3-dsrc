@@ -1,0 +1,9 @@
+<config>
+    <!-- DSRC subnet -->
+    <interface hosts="jeep[*]" names="wlan0" address="10.0.3.x" netmask="255.255.255.0"/>
+    <interface hosts="rsu[*]"  names="wlan0" address="10.0.3.x" netmask="255.255.255.0"/>
+
+    <!-- WiFi subnet -->
+    <interface hosts="ped[*]" names="wlan0" address="10.0.2.x" netmask="255.255.255.0"/>
+    <interface hosts="rsu[*]" names="wlan1" address="10.0.2.x" netmask="255.255.255.0"/>
+</config>

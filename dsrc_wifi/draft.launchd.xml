@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    <copy file="sumo.net.xml" />
+    <copy file="routes_low.rou.xml" />
+    <copy file="sumo.add.xml" />
+    <copy file="osm.sumocfg" type="config" />
+</launch>
